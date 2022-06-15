@@ -12,10 +12,10 @@ const role = ref('speaker');
 const username = ref('');
 
 const joinRoom = () => {
-    getToken(role)
+    getToken(role.value)
         .then((token) => {
             hmsActions.join({
-                userName: username || 'Anonymous',
+                userName: username.value || 'Anonymous',
                 authToken: token,
                 settings: {
                     isAudioMuted: true,
