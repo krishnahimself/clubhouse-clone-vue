@@ -6,8 +6,9 @@ export default async function getToken(role) {
     const response = await fetch(`${endPoint}api/token`, {
         method: 'POST',
         body: JSON.stringify({
+
             user_id: '62a34ab12630221c75a4239d',
-            role: 'speaker', // listener , speaker , moderator
+            role: role, // listener , speaker , moderator
             room_id,
         }),
     });
