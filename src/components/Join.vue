@@ -5,9 +5,8 @@ import Select from '../components/Join/Select.vue';
 import JoinButton from '../components/Join/JoinButton.vue';
 import { ref } from 'vue';
 import getToken from '../utils/getToken.js';
-import { useHMSActions } from '../composables/useHMSActions.js';
+import { hmsActions } from '../utils/hms.js';
 
-const hmsActions = useHMSActions();
 const role = ref('speaker');
 const username = ref('');
 
