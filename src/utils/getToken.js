@@ -2,7 +2,6 @@ const endPoint = import.meta.env.VITE_VUE_APP_TOKEN_ENDPOINT;
 const room_id = import.meta.env.VITE_VUE_APP_ROOM_ID;
 
 export default async function getToken(role) {
-    console.log(role);
     const response = await fetch(`${endPoint}api/token`, {
         method: 'POST',
         body: JSON.stringify({
