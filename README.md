@@ -20,7 +20,7 @@ npm run dev
 ```
 
 ## Note
-This is a starter kit application to help you get started on building clubhouse clone using Vue and 100ms. If you want production ready clubhouse clone built using Vue, Laravel/Rails/Django and 100ms then please contact me @ krishnabhandariweb@gmail.com You can also contact me if you want customization.
+This is a starter kit application to help you get started on building clubhouse clone or any audio room functionality using Vue and 100ms SDKs. If you want to build a production-ready clubhouse clone or any audio-based rooms using Vue, Laravel/Rails/Django, and 100ms SDKs then please contact me @ krishnabhandariweb@gmail.com
 
 ## Changelog
 
