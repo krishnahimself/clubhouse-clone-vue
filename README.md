@@ -6,6 +6,16 @@
 git clone https://github.com/krishnahimself/clubhouse-clone-vue
 cd clubhouse-clone-vue
 npm install
+```
+## Environment Variables
+
+Create .env file on project root directory and add your credentails for these keys. You can get those keys from 100ms dashboard.
+```sh
+VITE_VUE_APP_TOKEN_ENDPOINT=
+VITE_VUE_APP_ROOM_ID=
+```
+
+```sh
 npm run dev
 ```
 
