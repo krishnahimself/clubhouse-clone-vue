@@ -1,8 +1,11 @@
-<script setup></script>
+<script setup>
+import HandPeaceIcon from '../icons/HandPeaceIcon.vue';
+</script>
 
 <template>
     <button
-        class='px-6 py-3 w-40 bg-red-600 text-white font-bold hover:opacity-80 rounded-3xl border-none focus:ring-1 ring-brand-100 outline-none'>
-        Leave
+        class='flex items-center justify-center px-6 py-3 font-bold text-white bg-red-600 border-none outline-none w-46 hover:opacity-80 rounded-3xl focus:ring-1 ring-brand-100'>
+        <HandPeaceIcon />
+        <span class="ml-2">Leave quietly</span>
     </button>
 </template>
