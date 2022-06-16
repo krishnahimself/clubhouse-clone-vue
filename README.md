@@ -9,7 +9,7 @@ npm install
 ```
 ## Environment Variables
 
-Create .env file on project root directory and add your credentails for these keys. You can get those keys from 100ms dashboard.
+Create .env file on project root directory and add your credentails for these keys. You can get TOKEN_ENDPOINT and ROOM_ID from 100ms dashboard.
 ```sh
 VITE_VUE_APP_TOKEN_ENDPOINT=
 VITE_VUE_APP_ROOM_ID=
@@ -18,6 +18,9 @@ VITE_VUE_APP_ROOM_ID=
 ```sh
 npm run dev
 ```
+
+## Note
+This is a starter kit application to help you get started on building clubhouse clone using Vue and 100ms. If you want production ready clubhouse clone built using Vue, Laravel/Rails/Django and 100ms then please contact me @ krishnabhandariweb@gmail.com You can also contact me if you want customization.
 
 ## Changelog
 
@@ -34,6 +37,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## Credits
 
 - [Krishna Bhandari](https://github.com/krishnahimself)
+- [Clubhouse Clone React](https://github.com/100mslive/clubhouse-clone-react)
 - [All Contributors](../../contributors)
 
 ## License
