@@ -5,6 +5,7 @@ import { hmsActions, hmsStore } from '../utils/hms';
 import { selectPeers } from '@100mslive/hms-video-store';
 import Footer from '../components/Footer/Footer.vue';
 import { selectIsLocalAudioEnabled } from '@100mslive/hms-video-store';
+import ChatContainer from './Chat/ChatContainer.vue';
 
 const allPeers = ref([]);
 
@@ -23,13 +24,13 @@ hmsStore.subscribe(renderPeers, selectPeers);
 
 <template>
     <div class='flex flex-col pt-4'>
-        <div class='flex justify-between items-start'>
-            <div class='flex flex-wrap justify-center items-start w-full '>
+        <div class='flex items-start justify-between'>
+            <div class='flex flex-wrap items-start justify-center w-full '>
                 <template v-for="peer in allPeers" :key="peer.id">
                     <User :peer="peer"/>
                 </template>
             </div>
-            <!-- <ChatContainer /> -->
+            <ChatContainer />
         </div>
         <Footer :count="allPeers.length" />
     </div>
