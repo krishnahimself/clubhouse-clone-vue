@@ -18,7 +18,9 @@
         "@100mslive/hms-video-store": "^0.3.2",
         "vue": "^3.2.36",
         "vue-boring-avatars": "^1.1.0",
-        "vue-router": "^4.0.15"
+        "vue-router": "^4.0.15",
+        "vue-toast-notification": "^3.0.4",
+        "vue-toastification": "^2.0.0-rc.5"
     },
     "devDependencies": {
         "@rushstack/eslint-patch": "^1.1.0",

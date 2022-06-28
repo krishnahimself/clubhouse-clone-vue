@@ -1,4 +1,4 @@
-import { HMSReactiveStore } from '@100mslive/hms-video-store';
+import { HMSReactiveStore, HMSNotificationTypes } from '@100mslive/hms-video-store';
 
 const hms = new HMSReactiveStore();
 
@@ -10,4 +10,4 @@ const hmsActions = hms.getHMSActions();
 const hmsStore = hms.getStore();
 const hmsNotifications = hms.getNotifications();
 
-export { hmsActions, hmsStore, hmsNotifications };
+export { hmsActions, hmsStore, hmsNotifications, HMSNotificationTypes };
